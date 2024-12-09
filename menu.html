@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        /* استایل‌های کلی */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        nav {
+            background-color: #007BFF;
+            padding: 10px 0;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            position: relative;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background 0.3s;
+        }
+        li a:hover {
+            background-color: #0056b3;
+        }
+
+        /* زیرمنو */
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            display: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        li:hover .dropdown {
+            display: block;
+        }
+        .dropdown li {
+            width: 200px;
+        }
+        .dropdown a {
+            color: black;
+            padding: 10px;
+        }
+        .dropdown a:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* استایل عکس و متن داخل زیرمنو */
+        .dropdown img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .dropdown a span {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Menu 1</a>
+                <ul class="dropdown">
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 1-1</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 1-2</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 1-3</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Menu 2</a>
+                <ul class="dropdown">
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 2-1</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 2-2</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 2-3</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Menu 3</a>
+                <ul class="dropdown">
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 3-1</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 3-2</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 3-3</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Menu 4</a>
+                <ul class="dropdown">
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 4-1</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 4-2</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 4-3</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Menu 5</a>
+                <ul class="dropdown">
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 5-1</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 5-2</span></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/30" alt="Icon"> <span>Submenu 5-3</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
