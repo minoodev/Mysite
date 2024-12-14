@@ -12,7 +12,7 @@ $users = [
 $error = "";
 
 // بررسی ارسال فرم
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "Get") {
     $username = $_POST["username"] ?? "";
     $password = $_POST["password"] ?? "";
 
