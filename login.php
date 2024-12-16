@@ -4,7 +4,7 @@ session_start();
 
 // اطلاعات کاربر( کاربری و رمز عبوهست ر)
 $users = [
-    "admin" => "toori",
+    "admin" => "root",
     "user" => "password"
 ];
 
