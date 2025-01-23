@@ -2,7 +2,7 @@
 // ss
 session_start();
 
-// اطلاعات 6 کاربری و رمز عبوهست ر)
+// اطلاعات 7 کاربری و رمز عبوهست ر)
 $users = [
     "admin" => "root",
     "user" => "password"
