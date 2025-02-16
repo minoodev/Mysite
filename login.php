@@ -2,7 +2,7 @@
 // ssd
 session_start();
 
-// اطلاعات 5 کاربری و رمز عبوهست ر)
+// اطلاعات 6 کاربری و رمز عبوهست ر)
 $users = [
     "admin" => "root",
     "user" => "password"
