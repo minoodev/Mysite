@@ -4,7 +4,7 @@ session_start();
 
 // اطلاعات 11 کاربری و رمز عبوهست ر)
 $users = [
-    "admin" => "root",
+    "admin" => "rootS",
     "user" => "password"
 ];
 
