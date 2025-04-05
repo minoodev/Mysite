@@ -1,5 +1,5 @@
 <?php
-// sssSd
+// ssSd
 session_start();
 
 // اطلاعات 16 کاربری و رمز عبوهست ر)
