@@ -2,7 +2,7 @@
 // ssSSd
 session_start();
 
-// اطلاعات 16 کاربری و رمز عبوهست ر)
+// اطلاعات 12 کاربری و رمز عبوهست ر)
 $users = [
     "admin" => "root",
     "user" => "password"
