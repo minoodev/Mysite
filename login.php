@@ -2,7 +2,7 @@
 // sDFZGE
 session_start();
 
-// اطلاعات 5 کاربری و رمز عبوهست ر)
+// اطلاعات 1 کاربری و رمز عبوهست ر)
 $users = [
     "admin" => "root",
     "user" => "password"
